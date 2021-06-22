@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jomolhari', serif;
+}
+
+.nav-links {
+display: flex;
+
+}
+
+.space{
+  width: 20px;
+}
+
+.nav-links a{
+color: #c18f59;
+text-decoration: none;
+letter-spacing: 3px;
+font-weight: bold;
+font-size: 14px;
+}
+
+.Picking_place_in_toolbar{
+height: 45px;
+width: 1000px
+}
+
+
+.ToolBar{
+position: absolute;
+top: 4.6%;
+width: 100%;
+z-index: 2;
+height: 45px;
+}
+
+.ToolBar_container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+height: 45px;
+}
+
+.Website_toolbar_IMG{
+position: relative;
+left: 100px;
+}
+
+
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Jomolhari', serif;
+}
+
+.Top_banner{
+  padding-top: 160px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(top-banner-bckg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Top_banner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.Top_content_container{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Top_content_image{
+  width: 50%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Jomolhari', serif;
+}
+
+.ME_image{
+  width: 100%;
+  font-size: 0;
+}
+
+.Top_content_Words{
+  width: 35%;
+  margin-left: 54px;
+}
+
+.Top_content_Hello_span{
+  font-size: 14px;
+  color: #c18f59;
+}
+
+.Top_content_First_name{
+  margin-top: 15px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Jomolhari', serif;
+}
+
+.Top_content_text_down{
+  margin-bottom: 20px;
+}
+
+.Top_content_Last_name{
+  margin-bottom: 10px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Jomolhari', serif;
+  padding-left: 27%;
+}
+
+.Proffestion_span{
+  font-size: 14px;
+  color: #c18f59;
+  padding-left: 27%;
+}
+
+.Top_content_discription{
+  color: #777;
+  margin-right: 170px;
+}
+
+.Quoto_name{
+  margin-bottom: 42px;
+  color: #777;
+  margin-left: 170px;
+}
+
+.brand_button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c18f59;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+.ToolBar_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.About_me{
+  margin: 125px 0;
+  position: relative;
+}
+
+.BackGorund_image_for_about_me{
+  width: 100%;
+  padding-bottom: 15px;
+  position: absolute;
+  background-image: url(about-me-bckg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  top: -75px;
+  right: 0;
+  height: calc(100% + 150px);
+  z-index: -1;
+}
+
+.BackGorund_image_for_about_me:after {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+opacity: 0.7;
+}
+
+.Discription_container{
+flex-direction: column;
+align-items: center;
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin: 0 auto;
+}
+
+.Wrapper{
+margin-bottom: 20px;
+width: 390px;
+padding: 8px;
+text-align: center;
+background-color: #fff;
+}
+
+.Img_container_in_wrapper{
+font-size: 0;
+}
+
+.About_me_image{
+  width: 100%;
+}
+
+.Discription_container_in_wrapper{
+padding: 25px 0;
+background-color: #f5f5f5;
+}
+
+.Discription_in_about_me_under_image_Container{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin-bottom: 10px;
+}
+
+
+.Discription_container_in_wrapper_Name{
+font-size: 38px;
+text-align: center;
+color: #222;
+}
+
+.Discription_in_about_me_under_image_Container_spam{
+font-size: 65px;
+line-height: 62px;
+color: #c18f59;
+font-family: 'Jomolhari', serif;
+}
+
+.Discription_in_about_me_under_image_Container_P{
+padding: 0 10%;
+line-height: 25px;
+font-style: italic;
+color: #777;
+}
+
+.About_me_text{
+width: 100%;
+margin-right: 0;
+}
+
+.Discription_container_for_about_me{
+position: relative;
+text-align: center;
+width: 781px;
+left: 300px;
+}
+
+.Discription_for_about_me{
+position: relative;
+display: block;
+overflow: hidden;
+margin: 0;
+padding: 0;
+}
+
+.Discription_for_about_me_title{
+color: #fff;
+font-size: 38px;
+height: 60px;
+}
+
+.Discription_for_about_me_Bold{
+font-size: 48px;
+color: #fff;
+}
+
+.Discription_for_about_me_Paragraph{
+margin-bottom: 35px;
+line-height: 24px;
+color: #c18f59;
+}
+
+.My_Skills{
+  margin: 125px 0;
+  position: relative;
+}
+
+.BackGorund_image_for_my_skills{
+  width: 100%;
+  padding-bottom: 15px;
+  position: absolute;
+  background-image: url(Skills.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  top: -75px;
+  right: 0;
+  height: calc(100% + 150px);
+  z-index: -1;
+}
+
+.BackGorund_image_for_my_skills:after {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+opacity: 0.85;
+}
+
+
+
+.My_Skills_Container{
+width: 100%;
+list-style: none;
+padding: 0;
+height: 700px;
+left: 100px;
+
+}
+
+.skills{
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+}
+
+.skills li{
+margin: 20px 0;
+}
+
+.left_container_my_skills{
+  position: absolute;
+  left: 75px;
+  width: 500px;
+}
+
+.right_container_my_skills{
+  position: absolute;
+  width: 500px;
+  right: 75px
+}
+
+.bar{
+  background: #FAFAD2;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: : 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background:#c18f59
+}
+
+.html{
+width: 95%;
+}
+
+.CSS{
+width: 80%;
+}
+
+.Python{
+width: 65%;
+}
+
+.Video_Editing{
+width: 85%;
+}
+
+.AutoCad{
+width: 95%;
+}
+
+.PhotoShop{
+width: 90%;
+}
+
+.Problem_solving_skills{
+  width: 95%;
+}
+
+.Leadership{
+  width: 90%;
+}
+
+.creativity{
+  width: 75%;
+}
+
+.universal{
+font-size: 48px;
+text-align: center;
+color: #222;
+font-size: 38px;
+background-repeat: no-repeat;
+background-position: center bottom;
+margin-bottom: 50px;
+padding-bottom: 20px;
+  font-family: 'Jomolhari', serif;
+  color: #fff;
+}
+
+.Double{
+text-align: center;
+padding-bottom: 10px;
+}
+
+.Experiance{
+margin-bottom: 60px;
+}
+
+.Experiance_container{
+width: 90%;
+margin: 0 auto;
+}
+
+.Experiance_title{
+font-size: 38px;
+text-align: center;
+color: #222;
+margin-bottom: 50px;
+padding-bottom: 20px;
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+
+.Containter_for_work{
+margin-top: 25.6px;
+max-width: 1140px;
+width: 89%;
+margin: 0 auto;
+}
+
+.Left_colum_work{
+padding-right: 16px;
+}
+
+.Right_colum_work{
+padding-left: 16px;
+}
+
+.timeline{
+padding-top: 76.8px;
+position: relative;
+}
+
+.timeline::before{
+content: "";
+display: block;
+width: 1px;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.12);
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.timeline_icon{
+display: block;
+width: 6rem;
+height: 6rem;
+border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 0.25);
+position: absolute;
+top: -2.2rem;
+left: 4.4rem;
+}
+
+.timeline_block{
+
+}
+
+.timeline::after{
+content: "";
+display: block;
+width: 5.6rem;
+height: 1px;
+background-color: rgba(0, 0, 0, 0.12);
+position: absolute;
+left: 1px;
+top: 0;
+}
+
+.Icon_for_work{
+  background-image: url(briefcase.png);
+}
